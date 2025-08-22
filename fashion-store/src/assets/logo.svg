@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720" height="200" viewBox="0 0 720 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AURA logo">
+  <defs>
+    <style>
+      @supports (font-variation-settings: normal) {
+        .brand { font-family: "Montserrat", "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 800; letter-spacing: 0.08em; }
+      }
+      .brand { font-family: "Montserrat", "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-weight: 800; letter-spacing: 0.08em; }
+    </style>
+  </defs>
+
+  <!-- Background (transparent) -->
+  <rect width="100%" height="100%" fill="none"/>
+  
+  <!-- Geometric mark: tilted square (diamond) -->
+  <g transform="translate(60,100)">
+    <rect x="-28" y="-28" width="56" height="56" rx="8" fill="#1F3A5F" transform="rotate(45)"/>
+    <rect x="-16" y="-16" width="32" height="32" rx="6" fill="#9EFF6E" transform="rotate(45)"/>
+  </g>
+  
+  <!-- Wordmark -->
+  <text class="brand" x="120" y="118" font-size="92" fill="#1F3A5F">AURA</text>
+  
+  <!-- Tagline -->
+  <text x="122" y="148" font-size="18" fill="#1A1A1A" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" opacity="0.7">
+    modern apparel
+  </text>
+</svg>
